@@ -1,0 +1,18 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body has a fixed background image */
+body {
+  background-image: url('./assets/homeSide.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  margin: 0;
+  padding: 0;
+}
+
+
